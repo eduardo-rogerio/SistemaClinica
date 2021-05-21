@@ -1,9 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2021/05/20 14:45:11.438,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021/05/20 15:17:07.408,C:\Users\PC\Desktop\SistemaClinica\UnitPrincipal.dfm=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2021/05/20 15:17:07.408,C:\Users\PC\Desktop\SistemaClinica\UnitPrincipal.pas=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021/05/20 15:17:29.523,C:\Users\PC\Desktop\SistemaClinica\Clinica.dproj=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+	<Transactions>
+    <Transaction>2021/05/20 14:45:11.000.438,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/05/20 15:17:07.000.408,C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\PC\Desktop\SistemaClinica\UnitPrincipal.pas</Transaction>
+    <Transaction>2021/05/20 15:17:07.000.408,C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\PC\Desktop\SistemaClinica\UnitPrincipal.dfm</Transaction>
+    <Transaction>2021/05/20 15:17:29.000.523,C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\PC\Desktop\SistemaClinica\Clinica.dproj</Transaction>
+    <Transaction>2021/05/21 09:40:18.437,=C:\Users\PC\Desktop\SistemaClinica\Unit2.pas</Transaction>
+    <Transaction>2021/05/21 09:41:48.525,C:\Users\PC\Desktop\SistemaClinica\UnitCadPacientes.pas=C:\Users\PC\Desktop\SistemaClinica\Unit2.pas</Transaction>
+    <Transaction>2021/05/21 09:41:48.525,C:\Users\PC\Desktop\SistemaClinica\UnitCadPacientes.dfm=C:\Users\PC\Desktop\SistemaClinica\Unit2.dfm</Transaction>
+    <Transaction>2021/05/21 09:42:31.395,=C:\Users\PC\Desktop\SistemaClinica\Unit3.pas</Transaction>
+    <Transaction>2021/05/21 09:42:53.628,C:\Users\PC\Desktop\SistemaClinica\UnitCadAgendamentos.pas=C:\Users\PC\Desktop\SistemaClinica\Unit3.pas</Transaction>
+    <Transaction>2021/05/21 09:42:53.628,C:\Users\PC\Desktop\SistemaClinica\UnitCadAgendamentos.dfm=C:\Users\PC\Desktop\SistemaClinica\Unit3.dfm</Transaction>
+    <Transaction>2021/05/21 10:08:43.825,=C:\Users\PC\Desktop\SistemaClinica\Unit1.pas</Transaction>
+    <Transaction>2021/05/21 10:42:17.391,C:\Users\PC\Desktop\SistemaClinica\UnitDM.pas=C:\Users\PC\Desktop\SistemaClinica\Unit1.pas</Transaction>
+    <Transaction>2021/05/21 10:42:17.391,C:\Users\PC\Desktop\SistemaClinica\UnitDM.dfm=C:\Users\PC\Desktop\SistemaClinica\Unit1.dfm</Transaction>
   </Transactions>
 </BorlandProject>

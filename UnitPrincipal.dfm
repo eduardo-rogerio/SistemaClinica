@@ -1,4 +1,4 @@
-object Form1: TForm1
+object FormPrincipal: TFormPrincipal
   Left = 0
   Top = 0
   Caption = 'Sistema de Cl'#237'nica M'#233'dica'
@@ -12,6 +12,7 @@ object Form1: TForm1
   Font.Style = []
   Menu = MainMenu1
   OldCreateOrder = False
+  Position = poDesigned
   WindowState = wsMaximized
   PixelsPerInch = 110
   TextHeight = 14
@@ -978,8 +979,7 @@ object Form1: TForm1
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
       Layout = blGlyphTop
       TabOrder = 0
-      ExplicitLeft = 76
-      ExplicitHeight = 71
+      OnClick = BitBtn1Click
     end
     object BitBtn2: TBitBtn
       Left = 1
@@ -1209,7 +1209,9 @@ object Form1: TForm1
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
       Layout = blGlyphTop
       TabOrder = 1
-      ExplicitHeight = 71
+      OnClick = BitBtn2Click
+      ExplicitLeft = -5
+      ExplicitTop = -4
     end
   end
   object MainMenu1: TMainMenu
@@ -1218,15 +1220,18 @@ object Form1: TForm1
       Caption = 'Sistema'
       object sair1: TMenuItem
         Caption = 'Sair'
+        OnClick = sair1Click
       end
     end
     object Cadastro1: TMenuItem
       Caption = 'Cadastro'
       object Pacientes1: TMenuItem
         Caption = 'Pacientes'
+        OnClick = Pacientes1Click
       end
       object Agendamento1: TMenuItem
         Caption = 'Agendamentos'
+        OnClick = Agendamento1Click
       end
     end
   end
