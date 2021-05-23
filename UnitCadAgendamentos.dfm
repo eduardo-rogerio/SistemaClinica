@@ -4,8 +4,8 @@ object FormCadAgendamentos: TFormCadAgendamentos
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
   Caption = 'FormCadAgendamentos'
-  ClientHeight = 288
-  ClientWidth = 428
+  ClientHeight = 383
+  ClientWidth = 735
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -16,4 +16,172 @@ object FormCadAgendamentos: TFormCadAgendamentos
   Position = poScreenCenter
   PixelsPerInch = 110
   TextHeight = 14
+  object Label2: TLabel
+    Left = 19
+    Top = 104
+    Width = 12
+    Height = 14
+    Caption = 'ID'
+  end
+  object Label3: TLabel
+    Left = 113
+    Top = 104
+    Width = 83
+    Height = 14
+    Caption = 'Nome Paciente'
+  end
+  object Label6: TLabel
+    Left = 16
+    Top = 240
+    Width = 71
+    Height = 14
+    Caption = 'Especialidade'
+  end
+  object Label4: TLabel
+    Left = 19
+    Top = 172
+    Width = 29
+    Height = 14
+    Caption = 'Data '
+  end
+  object Label5: TLabel
+    Left = 114
+    Top = 172
+    Width = 25
+    Height = 14
+    Caption = 'Hora'
+  end
+  object Label7: TLabel
+    Left = 20
+    Top = 300
+    Width = 38
+    Height = 14
+    Caption = 'M'#233'dico'
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 735
+    Height = 89
+    Align = alTop
+    TabOrder = 0
+    ExplicitWidth = 662
+    object Label1: TLabel
+      Left = 16
+      Top = 25
+      Width = 178
+      Height = 29
+      Caption = 'Agendamentos'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -24
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object DBNavigator1: TDBNavigator
+      Left = 376
+      Top = 24
+      Width = 320
+      Height = 40
+      DataSource = DM.dsAgendamento
+      TabOrder = 0
+    end
+  end
+  object DBEdit1: TDBEdit
+    Left = 19
+    Top = 124
+    Width = 41
+    Height = 22
+    DataField = 'id'
+    DataSource = DM.dsAgendamento
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object DBLookupComboBox1: TDBLookupComboBox
+    Left = 113
+    Top = 128
+    Width = 241
+    Height = 22
+    DataField = 'id_paciente'
+    DataSource = DM.dsAgendamento
+    KeyField = 'id'
+    ListField = 'nome'
+    ListSource = DM.dsPaciente
+    TabOrder = 2
+  end
+  object DBComboBox1: TDBComboBox
+    Left = 18
+    Top = 260
+    Width = 176
+    Height = 22
+    DataField = 'especialidade'
+    DataSource = DM.dsAgendamento
+    Items.Strings = (
+      'Cardiologista'
+      'Ortopedista'
+      'Nutricionista')
+    TabOrder = 3
+  end
+  object DBEdit4: TDBEdit
+    Left = 18
+    Top = 192
+    Width = 78
+    Height = 22
+    DataField = 'data'
+    DataSource = DM.dsAgendamento
+    MaxLength = 8
+    TabOrder = 4
+  end
+  object DBEdit2: TDBEdit
+    Left = 113
+    Top = 192
+    Width = 78
+    Height = 22
+    DataField = 'hora'
+    DataSource = DM.dsAgendamento
+    MaxLength = 5
+    TabOrder = 5
+  end
+  object DBEdit3: TDBEdit
+    Left = 19
+    Top = 320
+    Width = 172
+    Height = 22
+    DataField = 'medico'
+    DataSource = DM.dsAgendamento
+    TabOrder = 6
+  end
+  object DBGrid1: TDBGrid
+    Left = 376
+    Top = 128
+    Width = 320
+    Height = 214
+    DataSource = DM.dsAgendamento
+    TabOrder = 7
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -12
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'data'
+        Title.Caption = 'DATA'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'hora'
+        Title.Caption = 'HORA'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'especialidade'
+        Title.Caption = 'ESPECIALIDADE'
+        Visible = True
+      end>
+  end
 end

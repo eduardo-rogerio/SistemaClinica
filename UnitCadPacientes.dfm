@@ -100,7 +100,7 @@ object FormCadPacientes: TFormCadPacientes
   object DBEdit2: TDBEdit
     Left = 16
     Top = 188
-    Width = 273
+    Width = 249
     Height = 22
     DataField = 'nome'
     DataSource = DM.dsPaciente
@@ -109,7 +109,7 @@ object FormCadPacientes: TFormCadPacientes
   object DBEdit3: TDBEdit
     Left = 16
     Top = 248
-    Width = 89
+    Width = 105
     Height = 22
     DataField = 'celular'
     DataSource = DM.dsPaciente
@@ -119,7 +119,7 @@ object FormCadPacientes: TFormCadPacientes
   object DBEdit4: TDBEdit
     Left = 145
     Top = 248
-    Width = 142
+    Width = 80
     Height = 22
     DataField = 'data_cadastro'
     DataSource = DM.dsPaciente
@@ -130,7 +130,7 @@ object FormCadPacientes: TFormCadPacientes
   object DBEdit5: TDBEdit
     Left = 168
     Top = 124
-    Width = 121
+    Width = 97
     Height = 22
     DataField = 'cpf'
     DataSource = DM.dsPaciente
